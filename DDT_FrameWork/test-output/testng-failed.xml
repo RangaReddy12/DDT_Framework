@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDrivenFramework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="InvalidLogin(failed)">
+    <classes>
+      <class name="driverFactory.AdminLoginInvaliddata">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- driverFactory.AdminLoginInvaliddata -->
+    </classes>
+  </test> <!-- InvalidLogin(failed) -->
+</suite> <!-- Failed suite [DataDrivenFramework] -->

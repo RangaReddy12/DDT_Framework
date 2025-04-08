@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenFramework">
+  <test thread-count="5" name="ValidLogin">
+    <classes>
+      
+      <class name="driverFactory.AdminLoginValidaData"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="InvalidLogin">
+    <classes>
+      <class name="driverFactory.AdminLoginInvaliddata"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- DataDrivenFramework -->
